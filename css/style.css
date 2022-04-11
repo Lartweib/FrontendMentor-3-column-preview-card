@@ -63,13 +63,35 @@ button{
 .sedans>div>button{
   color:hsl(31, 77%, 52%);
 }
+.sedans>div>button:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  outline-color: hsl(0, 0%, 95%);
+  outline: solid;
+  cursor: pointer;
+  
+}
 
 .suvs>div>button{
   color:hsl(184, 100%, 22%);
 }
+.suvs>div>button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  outline-color: hsl(0, 0%, 95%);
+  outline: solid;
+  cursor: pointer;
+}
 
 .luxury>div>button{
   color:hsl(179, 100%, 13%);
+}
+.luxury>div>button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  outline-color: hsl(0, 0%, 95%);
+  outline: solid;
+  cursor: pointer; 
 }
 
 .sedans {
